@@ -1,0 +1,42 @@
+.Card {
+  border: solid 1px;
+  background-color: rgb(40, 84, 161);
+  border-radius: 15px;
+  width: 500px;
+  height: 300px;
+  display: flex;
+  display: grid;
+}
+.Bank {
+  color: white;
+  text-align: right;
+  font-size: 30px;
+  margin-right: 35px;
+  font-weight: 900;
+}
+.Nummer {
+  font-family: 'PT Serif', serif;
+  color: white;
+  font-size: 40px;
+  margin-bottom: 0;
+  
+}
+.Valide {
+  color: white;
+  margin-top: 0;
+  text-align: left;
+  margin-left: 70px;
+}
+.Validate {
+  color: white;
+  font-size: smaller;
+}
+.Datum {
+  color: white;
+}
+.Namen {
+  color: white;
+  text-align: left;
+  margin-left: 70px;
+  font-family: 'PT Serif', serif;
+}
