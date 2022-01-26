@@ -1,3 +1,6 @@
+body {
+  font-family: "Fahkwang", sans-serif;
+}
 .Card {
   border: solid 1px;
   background-color: rgb(40, 84, 161);
@@ -15,28 +18,45 @@
   font-weight: 900;
 }
 .Nummer {
-  font-family: 'PT Serif', serif;
   color: white;
   font-size: 40px;
   margin-bottom: 0;
-  
+  font-weight: lighter;
 }
 .Valide {
   color: white;
   margin-top: 0;
   text-align: left;
-  margin-left: 70px;
+  margin-left: 30px;
+  font-weight: lighter;
 }
-.Validate {
+.Inline {
+  display: flex;
+  justify-content: center;
+}
+.Block {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5px;
+  font-weight: lighter;
+}
+.Validate1 {
   color: white;
-  font-size: smaller;
+  font-size: 10px;
+}
+.Validate2 {
+  color: white;
+  font-size: 10px;
 }
 .Datum {
   color: white;
+  font-size: 28px;
+  margin-left: 5px;
+  font-weight: lighter;
 }
 .Namen {
   color: white;
   text-align: left;
-  margin-left: 70px;
-  font-family: 'PT Serif', serif;
+  margin-left: 30px;
+  font-weight: lighter;
 }
